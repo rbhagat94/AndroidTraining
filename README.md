@@ -30,7 +30,10 @@ Figma Design: https://www.figma.com/design/mVuNCmgkYkEczj1Sfn1n31/e-commerce-app
 
 # Requirements:
 Layout Construction: Precisely match the typography, spacing, and image placement using Compose views and make small composable functions.
+
 Api call: Product Listing api has already been integrated to fetch listing data. In a similar fashion fetch product details api with the productId which is already present in the DetailsScreen.kt and cast the response in a Data class. API: https://dummyjson.com/products/1
+
 Integration: Integrating the received response with the UI created.
+
 Clean Code: Use meaningful variable names and break down large views into smaller, reusable subviews (Composition).
 
