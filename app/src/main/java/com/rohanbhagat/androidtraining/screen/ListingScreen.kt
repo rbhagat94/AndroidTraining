@@ -193,12 +193,10 @@ fun ComposeListingScreen(list: List<Product>? = null, controller: NavHostControl
 
 @Composable
 fun ItemCard(item: Product, controller: NavHostController) {
-    val context = LocalContext.current
     Card(
-        colors = CardDefaults.cardColors(Color.LightGray),
+        colors = CardDefaults.cardColors(Color.White),
         onClick = {
             controller.navigate("Details/${item.id}")
-            Toast.makeText(context, "Clicked", Toast.LENGTH_SHORT).show()
         },
         shape = RoundedCornerShape(16.dp),
         modifier = Modifier
