@@ -1,7 +1,6 @@
 package com.rohanbhagat.androidtraining.network
 
 import com.google.gson.GsonBuilder
-import com.rohanbhagat.androidtraining.network.ApiService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
